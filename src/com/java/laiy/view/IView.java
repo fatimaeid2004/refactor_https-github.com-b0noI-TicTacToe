@@ -2,26 +2,25 @@ package com.java.laiy.view;
 
 import com.java.laiy.controller.GameController;
 import com.java.laiy.model.Point;
-import com.java.laiy.model.exceptions.InvalidPointException;
 
 public interface IView {
 
-    public Point startTurn();
+	Point startTurn();
 
-    public void showGameName();
+	void showGameName();
 
-    public void showPlayers();
+	void showPlayers();
 
-    public void showBoard();
+	void showBoard();
 
-    public void showWinner();
+	void showWinner();
 
-    public void showDraw();
+	void showDraw();
 
-    public void anotherGame();
+	void anotherGame();
 
-    public void showPointOccupied();
+	void showPointOccupied();
 
-    public GameController getGameController();
+	GameController getGameController();
 
 }
